@@ -1,0 +1,17 @@
+V(.jsp)(-@modelAttribute->)Controller(<-return-) S ( -parameter->) D M
+V(<-) Controller
+
+*왼쪽으로 보내지는 건 return
+ 오른쪽으로 보내지는 건 parameter
+
+오류
+- 400 > controller, jsp, parameter 확인
+- 405 > get, post
+- 500 > 자바 DB 문법
+- 404 > 페이지 없음, DB 설정 에러
+
+만드는 순서
+1. V C를 만들고 M을 만들어 연결
+
+- BoardController에서 responsebody 공부 하기
+- contextpath
