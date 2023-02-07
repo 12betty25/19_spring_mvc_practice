@@ -14,7 +14,6 @@ public class BoardController {
 	private BoardService boardService; //service에서 가져오기
 	
 	//1. 글쓰기화면으로 보내기
-	@GetMapping("/addBoard")
 
 	
 }
